@@ -1,0 +1,2679 @@
+{
+    "rows": [
+        {
+            "id": 9905,
+            "name": "Black \/ L",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-10-21T10:13:55.000000Z",
+            "property_values": [
+                {
+                    "id": 1830,
+                    "name": "L",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9905,
+                        "category_property_value_id": 1830
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1850,
+                    "name": "Black",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9905,
+                        "category_property_value_id": 1850
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15982,
+                    "category_variant_id": 9905,
+                    "supplier_variant_id": 120205,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:38:45.000000Z",
+                    "updated_at": "2026-02-11T04:38:45.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                },
+                {
+                    "id": 16188,
+                    "category_variant_id": 9905,
+                    "supplier_variant_id": 303340,
+                    "category_catalog_id": 364,
+                    "active": 1,
+                    "created_at": "2026-02-12T04:53:07.000000Z",
+                    "updated_at": "2026-02-12T04:53:07.000000Z",
+                    "category_catalog": {
+                        "id": 364,
+                        "category_id": 158,
+                        "supplier_id": 7,
+                        "provider_id": 126,
+                        "supplier_catalog_id": 5316,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-12T04:52:53.000000Z",
+                        "updated_at": "2026-02-12T04:52:53.000000Z",
+                        "supplier": {
+                            "id": 7,
+                            "name": "sellerwix",
+                            "icon": "images\/logo\/sellerwix.ico",
+                            "active": true,
+                            "created_at": "2023-04-12T07:24:06.000000Z",
+                            "updated_at": "2026-10-23T08:13:49.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 1,
+                            "has_map_print_area": 1,
+                            "has_provider": 1,
+                            "has_order_mockup": 0,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 1,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": false,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9906,
+            "name": "Black \/ M",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-12T04:53:15.000000Z",
+            "property_values": [
+                {
+                    "id": 1831,
+                    "name": "M",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9906,
+                        "category_property_value_id": 1831
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1850,
+                    "name": "Black",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9906,
+                        "category_property_value_id": 1850
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15983,
+                    "category_variant_id": 9906,
+                    "supplier_variant_id": 120204,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:38:52.000000Z",
+                    "updated_at": "2026-02-11T04:38:52.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                },
+                {
+                    "id": 16189,
+                    "category_variant_id": 9906,
+                    "supplier_variant_id": 303341,
+                    "category_catalog_id": 364,
+                    "active": 1,
+                    "created_at": "2026-02-12T04:53:15.000000Z",
+                    "updated_at": "2026-02-12T04:53:15.000000Z",
+                    "category_catalog": {
+                        "id": 364,
+                        "category_id": 158,
+                        "supplier_id": 7,
+                        "provider_id": 126,
+                        "supplier_catalog_id": 5316,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-12T04:52:53.000000Z",
+                        "updated_at": "2026-02-12T04:52:53.000000Z",
+                        "supplier": {
+                            "id": 7,
+                            "name": "sellerwix",
+                            "icon": "images\/logo\/sellerwix.ico",
+                            "active": true,
+                            "created_at": "2023-04-12T07:24:06.000000Z",
+                            "updated_at": "2026-10-23T08:13:49.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 1,
+                            "has_map_print_area": 1,
+                            "has_provider": 1,
+                            "has_order_mockup": 0,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 1,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": false,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9907,
+            "name": "Black \/ S",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-12T04:53:22.000000Z",
+            "property_values": [
+                {
+                    "id": 1832,
+                    "name": "S",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9907,
+                        "category_property_value_id": 1832
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1850,
+                    "name": "Black",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9907,
+                        "category_property_value_id": 1850
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15984,
+                    "category_variant_id": 9907,
+                    "supplier_variant_id": 120203,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:39:13.000000Z",
+                    "updated_at": "2026-02-11T04:39:13.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                },
+                {
+                    "id": 16190,
+                    "category_variant_id": 9907,
+                    "supplier_variant_id": 303342,
+                    "category_catalog_id": 364,
+                    "active": 1,
+                    "created_at": "2026-02-12T04:53:22.000000Z",
+                    "updated_at": "2026-02-12T04:53:22.000000Z",
+                    "category_catalog": {
+                        "id": 364,
+                        "category_id": 158,
+                        "supplier_id": 7,
+                        "provider_id": 126,
+                        "supplier_catalog_id": 5316,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-12T04:52:53.000000Z",
+                        "updated_at": "2026-02-12T04:52:53.000000Z",
+                        "supplier": {
+                            "id": 7,
+                            "name": "sellerwix",
+                            "icon": "images\/logo\/sellerwix.ico",
+                            "active": true,
+                            "created_at": "2023-04-12T07:24:06.000000Z",
+                            "updated_at": "2026-10-23T08:13:49.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 1,
+                            "has_map_print_area": 1,
+                            "has_provider": 1,
+                            "has_order_mockup": 0,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 1,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": false,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9904,
+            "name": "Black \/ XL",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-12T04:53:29.000000Z",
+            "property_values": [
+                {
+                    "id": 1829,
+                    "name": "XL",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9904,
+                        "category_property_value_id": 1829
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1850,
+                    "name": "Black",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9904,
+                        "category_property_value_id": 1850
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15985,
+                    "category_variant_id": 9904,
+                    "supplier_variant_id": 120206,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:39:20.000000Z",
+                    "updated_at": "2026-02-11T04:39:20.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                },
+                {
+                    "id": 16191,
+                    "category_variant_id": 9904,
+                    "supplier_variant_id": 303339,
+                    "category_catalog_id": 364,
+                    "active": 1,
+                    "created_at": "2026-02-12T04:53:29.000000Z",
+                    "updated_at": "2026-02-12T04:53:29.000000Z",
+                    "category_catalog": {
+                        "id": 364,
+                        "category_id": 158,
+                        "supplier_id": 7,
+                        "provider_id": 126,
+                        "supplier_catalog_id": 5316,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-12T04:52:53.000000Z",
+                        "updated_at": "2026-02-12T04:52:53.000000Z",
+                        "supplier": {
+                            "id": 7,
+                            "name": "sellerwix",
+                            "icon": "images\/logo\/sellerwix.ico",
+                            "active": true,
+                            "created_at": "2023-04-12T07:24:06.000000Z",
+                            "updated_at": "2026-10-23T08:13:49.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 1,
+                            "has_map_print_area": 1,
+                            "has_provider": 1,
+                            "has_order_mockup": 0,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 1,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": false,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9908,
+            "name": "Black \/ XS",
+            "category_id": 158,
+            "has_supplier_variant": 0,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-11T04:36:34.000000Z",
+            "property_values": [
+                {
+                    "id": 1833,
+                    "name": "XS",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9908,
+                        "category_property_value_id": 1833
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1850,
+                    "name": "Black",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9908,
+                        "category_property_value_id": 1850
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": []
+        },
+        {
+            "id": 9900,
+            "name": "Cardinal Red \/ L",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-11T04:41:00.000000Z",
+            "property_values": [
+                {
+                    "id": 1830,
+                    "name": "L",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9900,
+                        "category_property_value_id": 1830
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1849,
+                    "name": "Cardinal Red",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9900,
+                        "category_property_value_id": 1849
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15989,
+                    "category_variant_id": 9900,
+                    "supplier_variant_id": 120268,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:41:00.000000Z",
+                    "updated_at": "2026-02-11T04:41:00.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9901,
+            "name": "Cardinal Red \/ M",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-11T04:41:07.000000Z",
+            "property_values": [
+                {
+                    "id": 1831,
+                    "name": "M",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9901,
+                        "category_property_value_id": 1831
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1849,
+                    "name": "Cardinal Red",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9901,
+                        "category_property_value_id": 1849
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15990,
+                    "category_variant_id": 9901,
+                    "supplier_variant_id": 120269,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:41:07.000000Z",
+                    "updated_at": "2026-02-11T04:41:07.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9902,
+            "name": "Cardinal Red \/ S",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-11T04:41:14.000000Z",
+            "property_values": [
+                {
+                    "id": 1832,
+                    "name": "S",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9902,
+                        "category_property_value_id": 1832
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1849,
+                    "name": "Cardinal Red",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9902,
+                        "category_property_value_id": 1849
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15991,
+                    "category_variant_id": 9902,
+                    "supplier_variant_id": 237639,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:41:14.000000Z",
+                    "updated_at": "2026-02-11T04:41:14.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9899,
+            "name": "Cardinal Red \/ XL",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-11T04:41:27.000000Z",
+            "property_values": [
+                {
+                    "id": 1829,
+                    "name": "XL",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9899,
+                        "category_property_value_id": 1829
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1849,
+                    "name": "Cardinal Red",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9899,
+                        "category_property_value_id": 1849
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15992,
+                    "category_variant_id": 9899,
+                    "supplier_variant_id": 328286,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:41:27.000000Z",
+                    "updated_at": "2026-02-11T04:41:27.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9903,
+            "name": "Cardinal Red \/ XS",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-11T04:41:42.000000Z",
+            "property_values": [
+                {
+                    "id": 1833,
+                    "name": "XS",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9903,
+                        "category_property_value_id": 1833
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1849,
+                    "name": "Cardinal Red",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9903,
+                        "category_property_value_id": 1849
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15993,
+                    "category_variant_id": 9903,
+                    "supplier_variant_id": 237639,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:41:42.000000Z",
+                    "updated_at": "2026-02-11T04:41:42.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9895,
+            "name": "Charcoal \/ L",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-11T04:41:57.000000Z",
+            "property_values": [
+                {
+                    "id": 1830,
+                    "name": "L",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9895,
+                        "category_property_value_id": 1830
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1848,
+                    "name": "Charcoal",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9895,
+                        "category_property_value_id": 1848
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15994,
+                    "category_variant_id": 9895,
+                    "supplier_variant_id": 120270,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:41:57.000000Z",
+                    "updated_at": "2026-02-11T04:41:57.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9896,
+            "name": "Charcoal \/ M",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-11T04:42:03.000000Z",
+            "property_values": [
+                {
+                    "id": 1831,
+                    "name": "M",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9896,
+                        "category_property_value_id": 1831
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1848,
+                    "name": "Charcoal",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9896,
+                        "category_property_value_id": 1848
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15995,
+                    "category_variant_id": 9896,
+                    "supplier_variant_id": 120271,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:42:03.000000Z",
+                    "updated_at": "2026-02-11T04:42:03.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9897,
+            "name": "Charcoal \/ S",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-11T04:42:12.000000Z",
+            "property_values": [
+                {
+                    "id": 1832,
+                    "name": "S",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9897,
+                        "category_property_value_id": 1832
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1848,
+                    "name": "Charcoal",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9897,
+                        "category_property_value_id": 1848
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15996,
+                    "category_variant_id": 9897,
+                    "supplier_variant_id": 120272,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:42:12.000000Z",
+                    "updated_at": "2026-02-11T04:42:12.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9894,
+            "name": "Charcoal \/ XL",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-11T04:42:20.000000Z",
+            "property_values": [
+                {
+                    "id": 1829,
+                    "name": "XL",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9894,
+                        "category_property_value_id": 1829
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1848,
+                    "name": "Charcoal",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9894,
+                        "category_property_value_id": 1848
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15997,
+                    "category_variant_id": 9894,
+                    "supplier_variant_id": 120273,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:42:20.000000Z",
+                    "updated_at": "2026-02-11T04:42:20.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9898,
+            "name": "Charcoal \/ XS",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:34.000000Z",
+            "updated_at": "2026-02-11T04:42:29.000000Z",
+            "property_values": [
+                {
+                    "id": 1833,
+                    "name": "XS",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9898,
+                        "category_property_value_id": 1833
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1848,
+                    "name": "Charcoal",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:34.000000Z",
+                    "updated_at": "2026-02-11T04:36:34.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9898,
+                        "category_property_value_id": 1848
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15998,
+                    "category_variant_id": 9898,
+                    "supplier_variant_id": 237640,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:42:29.000000Z",
+                    "updated_at": "2026-02-11T04:42:29.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9890,
+            "name": "Dark Heather \/ L",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:33.000000Z",
+            "updated_at": "2026-02-11T04:42:40.000000Z",
+            "property_values": [
+                {
+                    "id": 1830,
+                    "name": "L",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9890,
+                        "category_property_value_id": 1830
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1847,
+                    "name": "Dark Heather",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:33.000000Z",
+                    "updated_at": "2026-02-11T04:36:33.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9890,
+                        "category_property_value_id": 1847
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 15999,
+                    "category_variant_id": 9890,
+                    "supplier_variant_id": 120213,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:42:40.000000Z",
+                    "updated_at": "2026-02-11T04:42:40.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9891,
+            "name": "Dark Heather \/ M",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:33.000000Z",
+            "updated_at": "2026-02-11T04:43:00.000000Z",
+            "property_values": [
+                {
+                    "id": 1831,
+                    "name": "M",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9891,
+                        "category_property_value_id": 1831
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1847,
+                    "name": "Dark Heather",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:33.000000Z",
+                    "updated_at": "2026-02-11T04:36:33.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9891,
+                        "category_property_value_id": 1847
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 16000,
+                    "category_variant_id": 9891,
+                    "supplier_variant_id": 120212,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:43:00.000000Z",
+                    "updated_at": "2026-02-11T04:43:00.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9892,
+            "name": "Dark Heather \/ S",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:33.000000Z",
+            "updated_at": "2026-02-11T04:43:06.000000Z",
+            "property_values": [
+                {
+                    "id": 1832,
+                    "name": "S",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9892,
+                        "category_property_value_id": 1832
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1847,
+                    "name": "Dark Heather",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:33.000000Z",
+                    "updated_at": "2026-02-11T04:36:33.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9892,
+                        "category_property_value_id": 1847
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 16001,
+                    "category_variant_id": 9892,
+                    "supplier_variant_id": 120211,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:43:06.000000Z",
+                    "updated_at": "2026-02-11T04:43:06.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9889,
+            "name": "Dark Heather \/ XL",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:33.000000Z",
+            "updated_at": "2026-02-11T04:43:13.000000Z",
+            "property_values": [
+                {
+                    "id": 1829,
+                    "name": "XL",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9889,
+                        "category_property_value_id": 1829
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1847,
+                    "name": "Dark Heather",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:33.000000Z",
+                    "updated_at": "2026-02-11T04:36:33.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9889,
+                        "category_property_value_id": 1847
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 16002,
+                    "category_variant_id": 9889,
+                    "supplier_variant_id": 120214,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:43:13.000000Z",
+                    "updated_at": "2026-02-11T04:43:13.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9893,
+            "name": "Dark Heather \/ XS",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:33.000000Z",
+            "updated_at": "2026-02-11T04:43:20.000000Z",
+            "property_values": [
+                {
+                    "id": 1833,
+                    "name": "XS",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9893,
+                        "category_property_value_id": 1833
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1847,
+                    "name": "Dark Heather",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:33.000000Z",
+                    "updated_at": "2026-02-11T04:36:33.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9893,
+                        "category_property_value_id": 1847
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 16003,
+                    "category_variant_id": 9893,
+                    "supplier_variant_id": 120274,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:43:20.000000Z",
+                    "updated_at": "2026-02-11T04:43:20.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9885,
+            "name": "FOREST GREEN \/ L",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:33.000000Z",
+            "updated_at": "2026-02-11T04:43:37.000000Z",
+            "property_values": [
+                {
+                    "id": 1830,
+                    "name": "L",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9885,
+                        "category_property_value_id": 1830
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1846,
+                    "name": "FOREST GREEN",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:33.000000Z",
+                    "updated_at": "2026-02-11T04:36:33.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9885,
+                        "category_property_value_id": 1846
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 16004,
+                    "category_variant_id": 9885,
+                    "supplier_variant_id": 120217,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:43:37.000000Z",
+                    "updated_at": "2026-02-11T04:43:37.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9886,
+            "name": "FOREST GREEN \/ M",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:33.000000Z",
+            "updated_at": "2026-02-11T04:43:46.000000Z",
+            "property_values": [
+                {
+                    "id": 1831,
+                    "name": "M",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9886,
+                        "category_property_value_id": 1831
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1846,
+                    "name": "FOREST GREEN",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:33.000000Z",
+                    "updated_at": "2026-02-11T04:36:33.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9886,
+                        "category_property_value_id": 1846
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 16005,
+                    "category_variant_id": 9886,
+                    "supplier_variant_id": 120216,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:43:46.000000Z",
+                    "updated_at": "2026-02-11T04:43:46.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9887,
+            "name": "FOREST GREEN \/ S",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:33.000000Z",
+            "updated_at": "2026-02-11T04:44:33.000000Z",
+            "property_values": [
+                {
+                    "id": 1832,
+                    "name": "S",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9887,
+                        "category_property_value_id": 1832
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1846,
+                    "name": "FOREST GREEN",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:33.000000Z",
+                    "updated_at": "2026-02-11T04:36:33.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9887,
+                        "category_property_value_id": 1846
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 16006,
+                    "category_variant_id": 9887,
+                    "supplier_variant_id": 120215,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:44:33.000000Z",
+                    "updated_at": "2026-02-11T04:44:33.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9884,
+            "name": "FOREST GREEN \/ XL",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:33.000000Z",
+            "updated_at": "2026-02-11T04:46:06.000000Z",
+            "property_values": [
+                {
+                    "id": 1829,
+                    "name": "XL",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9884,
+                        "category_property_value_id": 1829
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1846,
+                    "name": "FOREST GREEN",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:33.000000Z",
+                    "updated_at": "2026-02-11T04:36:33.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9884,
+                        "category_property_value_id": 1846
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 16007,
+                    "category_variant_id": 9884,
+                    "supplier_variant_id": 120218,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:46:06.000000Z",
+                    "updated_at": "2026-02-11T04:46:06.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9888,
+            "name": "FOREST GREEN \/ XS",
+            "category_id": 158,
+            "has_supplier_variant": 1,
+            "active": 1,
+            "created_at": "2026-02-11T04:36:33.000000Z",
+            "updated_at": "2026-02-11T04:55:33.000000Z",
+            "property_values": [
+                {
+                    "id": 1833,
+                    "name": "XS",
+                    "property_id": 2,
+                    "category_category_property_id": 226,
+                    "created_at": "2026-02-11T04:36:31.000000Z",
+                    "updated_at": "2026-02-11T04:36:31.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9888,
+                        "category_property_value_id": 1833
+                    },
+                    "property": {
+                        "id": 2,
+                        "name": "Size",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                },
+                {
+                    "id": 1846,
+                    "name": "FOREST GREEN",
+                    "property_id": 1,
+                    "category_category_property_id": 225,
+                    "created_at": "2026-02-11T04:36:33.000000Z",
+                    "updated_at": "2026-02-11T04:36:33.000000Z",
+                    "pivot": {
+                        "category_variant_id": 9888,
+                        "category_property_value_id": 1846
+                    },
+                    "property": {
+                        "id": 1,
+                        "name": "Color",
+                        "active": 1,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                }
+            ],
+            "category_supplier_variants": [
+                {
+                    "id": 16008,
+                    "category_variant_id": 9888,
+                    "supplier_variant_id": 120275,
+                    "category_catalog_id": 359,
+                    "active": 1,
+                    "created_at": "2026-02-11T04:55:33.000000Z",
+                    "updated_at": "2026-02-11T04:55:33.000000Z",
+                    "category_catalog": {
+                        "id": 359,
+                        "category_id": 158,
+                        "supplier_id": 8,
+                        "provider_id": null,
+                        "supplier_catalog_id": 2821,
+                        "active": 1,
+                        "priority": 0,
+                        "created_at": "2026-02-11T04:36:49.000000Z",
+                        "updated_at": "2026-02-11T04:36:49.000000Z",
+                        "supplier": {
+                            "id": 8,
+                            "name": "swiftpod",
+                            "icon": "images\/logo\/swiftpod.png",
+                            "active": true,
+                            "created_at": "2023-11-28T11:18:55.000000Z",
+                            "updated_at": "2026-10-23T08:14:28.000000Z",
+                            "gift_price": null,
+                            "is_variant_print_area": 0,
+                            "has_map_print_area": 0,
+                            "has_provider": 0,
+                            "has_order_mockup": 1,
+                            "has_order_supplier_note": 0,
+                            "pss_fee": "0.00",
+                            "has_order_label": 1,
+                            "has_recheck_timeout": 0,
+                            "has_variant_dimensions_detail": 0,
+                            "has_tiktok_order": 0,
+                            "is_provider_shipping": 0,
+                            "check_order_by_reference_id": 0,
+                            "calc_shipping_fee_method": "max_in_catalog",
+                            "has_order_with_fullname": 1,
+                            "has_order_tags": 0,
+                            "import_price_match_sku": 1,
+                            "support_ticket_api": true,
+                            "support_ticket_email": false,
+                            "support_ticket_lark": false,
+                            "support_email": null,
+                            "has_printing_method": false
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "lastRow": 90
+}

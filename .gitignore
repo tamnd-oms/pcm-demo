@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.vite/
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Playwright debug output
+.playwright-mcp/
+
+# Screenshots from this session
+catalog-hub-*.png
+sidebar-*.png
+variant-*.png
+delivery-*.png
+page-*.png
+
+# Vercel
+.vercel
