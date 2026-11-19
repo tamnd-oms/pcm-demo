@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import productsData from './data/products.json';
+import categoryData from './data/category.json';
+import p158Variants from './data/p158-variants.json';
 import { buildModel } from './lib/model.js';
 import { navigate, useRoute } from './lib/router.js';
 import Explorer from './components/Explorer.jsx';
@@ -7,10 +8,15 @@ import Product360 from './components/Product360.jsx';
 import CommandPalette from './components/CommandPalette.jsx';
 import { Toast } from './components/ui.jsx';
 
+const initialRaw = {
+  ...categoryData,
+  productVariants: { p158: p158Variants },
+};
+
 export default function App() {
   // Dữ liệu thô giữ trong state để thao tác (đổi priority, bật/tắt) phản ánh ngay mọi màn hình.
   // Khi nối API: thay `category` bằng dữ liệu fetch và gọi API trong các hàm actions bên dưới.
-  const [raw, setRaw] = useState(productsData);
+  const [raw, setRaw] = useState(initialRaw);
   const model = useMemo(() => buildModel(raw), [raw]);
   const route = useRoute();
   const [paletteOpen, setPaletteOpen] = useState(false);
