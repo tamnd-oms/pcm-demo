@@ -12,6 +12,22 @@ const round2 = (n) => Math.round(n * 100) / 100;
 export const money = (n) => (n == null ? '—' : `$${n.toFixed(2)}`);
 export const days = (n) => (n == null ? '—' : `${n.toFixed(1)} ngày`);
 
+export const COLOR_HEX = {
+  black: '#111827', white: '#f8fafc', gray: '#9ca3af', grey: '#9ca3af',
+  red: '#ef4444', orange: '#f97316', yellow: '#eab308', green: '#22c55e',
+  blue: '#3b82f6', navy: '#1e3a8a', purple: '#a855f7', pink: '#ec4899',
+  brown: '#92400e', beige: '#e8d9b6', ivory: '#faf6ec', cream: '#f5efe0',
+  khaki: '#c3b091', maroon: '#7f1d1d', teal: '#14b8a6', olive: '#556b2f',
+  gold: '#d4a84f', silver: '#cbd5e1', charcoal: '#374151', tan: '#d2b48c',
+};
+export function colorToHex(name) {
+  if (!name) return '#9ca3af';
+  const key = name.toLowerCase().trim();
+  if (COLOR_HEX[key]) return COLOR_HEX[key];
+  for (const k of Object.keys(COLOR_HEX)) if (key.includes(k)) return COLOR_HEX[k];
+  return '#9ca3af';
+}
+
 // --- Helpers cho format API mới { rows: [...tree...], lastRow: 0 } ---
 
 function hashStr(str) {
